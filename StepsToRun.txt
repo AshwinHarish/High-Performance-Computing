@@ -1,0 +1,11 @@
+Steps to run OpenMP
+gcc -fopenmp file.c
+./a.out
+
+Steps to run MPI
+mpicc file.c
+mpirun -np 4 a.out
+
+Steps to run CUDA
+nvcc file.cu
+./a.out
